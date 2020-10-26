@@ -3,11 +3,17 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.assignment {
+.assignments {
     display: flex;
+    flex-wrap: wrap;
+}
+
+.assignment {
+    width: 21%;
     padding: 10px;
     background: aliceblue;
-    margin: 30px;
+    margin: 10px;
+    margin-bottom: 30px;
     border-radius: 5px;
     box-shadow: 5px 5px black;
 }
